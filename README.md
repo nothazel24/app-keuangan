@@ -41,6 +41,9 @@
 # Clone Repository
 https://github.com/nothazel24/app-keuangan.git
 
+# Copy & konfigurasi file .env
+cp .env.example .env
+
 # Build Docker Image
 sudo docker compose up -d --build
 
@@ -54,7 +57,7 @@ sudo docker compose exec npm npm install
 sudo docker compose exec npm npm run dev
 ```
 
-### 📱 NPM build (production)
+### ⚙️ NPM build (production)
 ```bash
 # Bundling js 
 sudo docker compose exec npm npm run build
