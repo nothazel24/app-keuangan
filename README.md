@@ -14,10 +14,10 @@
 - Menghapus catatan pengeluaran.
 - Mengelompokkan pengeluaran berdasarkan kategori untuk pengelolaan keuangan yang lebih baik.
 
-### 🗂️ Manajemen Kategori
-- Membuat kategori pengeluaran kustom.
-- Memperbarui informasi kategori.
-- Menghapus kategori yang tidak digunakan.
+### 🗂️ Manajemen Label
+- Membuat label kustom untuk pengeluaran.
+- Memperbarui informasi label.
+- Menghapus label yang tidak digunakan.
 
 ### 📈 Dashboard Keuangan
 - Memantau aktivitas keuangan bulanan melalui dashboard.

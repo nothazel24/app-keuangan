@@ -4,16 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Categories extends Model
+class Labels extends Model
 {
     protected $fillable = [
-        'user_id',
-        'name',
-        'type'
+        'label_name',
+        'label_color'
     ];
-
-    public function user()
-    {
-        return $this->belongsTo(User::class);
-    }
 }

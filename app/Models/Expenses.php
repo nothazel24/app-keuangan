@@ -8,7 +8,7 @@ class Expenses extends Model
 {
     protected $fillable = [
         'user_id',
-        'category_id',
+        'label_id',
         'amount',
         'description',
         'expense_date'
@@ -19,8 +19,8 @@ class Expenses extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function category()
+    public function label()
     {
-        return $this->belongsTo(Categories::class);
+        return $this->belongsTo(Labels::class);
     }
 }
